@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>mate-academy</groupId>
-    <artifactId>web-security</artifactId>
+    <groupId>mate</groupId>
+    <artifactId>taxi-service</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
@@ -15,16 +15,11 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.checkstyle.plugin.version>3.1.1</maven.checkstyle.plugin.version>
         <maven.checkstyle.plugin.configLocation>
-            https://raw.githubusercontent.com/mate-academy/style-guides/master/java/checkstyle.xml
+            checkstyle.xml
         </maven.checkstyle.plugin.configLocation>
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>javax.annotation</groupId>
-            <artifactId>javax.annotation-api</artifactId>
-            <version>1.3.2</version>
-        </dependency>
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
