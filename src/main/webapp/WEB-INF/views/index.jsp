@@ -5,25 +5,80 @@
 <html>
 <head>
     <title>My team</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="/css/styles.css" rel="stylesheet">
 </head>
 <body>
-<%@include file="header.jsp"%>
-<form action="${pageContext.request.contextPath}/login">
-    <input type="submit" value="Login" />
-</form>
-<form method="post" id="redirect"></form>
-<h1 class="table_dark">Hello, mates</h1>
-<table class="table_dark">
-    <tr>
-        <th>Redirect to</th>
-    </tr>
-    <tr><td><a href="${pageContext.request.contextPath}/drivers">Display All Drivers</a></td></tr>
-    <tr><td><a href="${pageContext.request.contextPath}/cars">Display All Cars</a></td></tr>
-    <tr><td><a href="${pageContext.request.contextPath}/manufacturers">Display All Manufacturers</a></td></tr>
-    <tr><td><a href="${pageContext.request.contextPath}/drivers/add">Create new Driver</a></td></tr>
-    <tr><td><a href="${pageContext.request.contextPath}/cars/add">Create new Car</a></td></tr>
-    <tr><td><a href="${pageContext.request.contextPath}/manufacturers/add">Create new Manufacturer</a></td></tr>
-    <tr><td><a href="${pageContext.request.contextPath}/cars/drivers/add">Add Driver to Car</a></td></tr>
+<div class="main-box">
+    <h1>Hello, mates</h1>
+<form class="user-box">
+    <a href="${pageContext.request.contextPath}/login">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Login
+    </a>
+    <a  href="${pageContext.request.contextPath}/logout">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Logout
+    </a>
+    <a href="${pageContext.request.contextPath}/drivers/add">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Create new Driver
+    </a>
+    <a href="${pageContext.request.contextPath}/drivers">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Display All Drivers
+    </a>
+    <a href="${pageContext.request.contextPath}/cars">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Display All Cars
+    </a>
+
+    <a href="${pageContext.request.contextPath}/manufacturers">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Display All Manufacturers
+    </a>
+    <a href="${pageContext.request.contextPath}/cars/add">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Create new Car
+    </a>
+    <a href="${pageContext.request.contextPath}/manufacturers/add">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Create new Manufacturer
+    </a>
+    <a href="${pageContext.request.contextPath}/cars/drivers/add">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Add Driver to Car
+    </a>
 </table>
+    </form>
+</div>
 </body>
 </html>
