@@ -19,27 +19,16 @@
         <label>Model</label>
     </div>
     <div class="user-box">
-        <input type="text" name="license_number" form="car" required>
+        <input type="text" name="manufacturer_id" form="car" required>
         <label>Manufacturer ID</label>
     </div>
-    <table border="1" class="table_dark">
-    <tr>
-        <th>Model</th>
-        <th>Manufacturer ID</th>
-        <th>Add</th>
-    </tr>
-    <tr>
-        <td>
-            <input type="text" name="model" form="car" required>
-        </td>
-        <td>
-            <input type="number" name="manufacturer_id" form="car" required>
-        </td>
-        <td>
-            <button type="submit" name="add" form="car">
-        </td>
-    </tr>
-</table>
+    <button type="submit" name="add" form="car">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        ADD
+    </button>
 </form>
 </div>
 </body>

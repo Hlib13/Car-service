@@ -8,8 +8,9 @@
     <title>All drivers</title>
 </head>
 <body>
-<h1 class="table_dark">All drivers:</h1>
-<table border="1" class="table_dark">
+<div class="main-box">
+<h1>All drivers:</h1>
+<table border="1" class="user-box">
     <tr>
         <th>ID</th>
         <th>Name</th>
@@ -33,5 +34,6 @@
         </tr>
     </c:forEach>
 </table>
+</div>
 </body>
 </html>

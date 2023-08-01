@@ -8,9 +8,10 @@
     <title>Add driver to car</title>
 </head>
 <body>
+<div class="main-box">
 <form method="post" id="car" action="${pageContext.request.contextPath}/cars/drivers/add"></form>
 <h1 class="table_dark">Add driver to car:</h1>
-<table border="1" class="table_dark">
+<table border="1" class="user-box">
     <tr>
         <th>Car ID</th>
         <th>Driver ID</th>
@@ -24,9 +25,11 @@
             <input type="number" name="driver_id" form="car" required>
         </td>
         <td>
-            <input type="submit" name="add" form="car">
+            <button type="submit" name="add" form="car">
+            </button>
         </td>
     </tr>
 </table>
+</div>
 </body>
 </html>
